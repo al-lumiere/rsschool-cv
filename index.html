@@ -1,16 +1,364 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aliaksandra Pletsiazhova — CV</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>Aliaksandra Pletsiazhova — Frontend Developer</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
 
   <body>
-    <main>
-      <h1>Aliaksandra Pletsiazhova</h1>
-      <p>Frontend Developer</p>
-    </main>
+    <div class="resume">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </nav>
+
+        <div class="profile">
+          <img
+            class="profile-photo"
+            src="./assets/avatar.png"
+            alt="Aliaksandra Pletsiazhova"
+          >
+
+          <div class="profile-text">
+            <div class="accent-line"></div>
+
+            <div class="faq">
+              <h1>Aliaksandra Pletsiazhova</h1>
+
+              <p class="job-title">
+                Frontend Developer
+                <a
+                  class="github-inline"
+                  href="https://github.com/al-lumiere"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  (GitHub)
+                </a>
+              </p>
+
+              <p class="location">
+                Tel Aviv · Ready for relocation
+              </p>
+            </div>
+
+            <section class="about-card" id="about">
+              <h2>About me</h2>
+
+              <p>
+                Frontend Developer with a background in graphic design.<br>
+                <strong>
+                  I see like a designer and think like an engineer,
+                </strong>
+                combining visual intuition with structured frontend
+                architecture. I develop web applications using React and
+                TypeScript, focusing on maintainable code and thoughtful user
+                experience.
+              </p>
+            </section>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <div class="left-part">
+          <section class="section" id="contacts">
+            <h2>Contact</h2>
+
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a href="mailto:alyaplfv@gmail.com">
+                  alyaplfv@gmail.com
+                </a>
+              </li>
+
+              <li>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+972587440301">
+                  +972 58 7440301
+                </a>
+              </li>
+
+              <li>
+                <span class="contact-label">Telegram</span>
+                <a href="https://t.me/al_lmre">
+                  @al_lmre
+                </a>
+              </li>
+
+              <li>
+                <span class="contact-label">Discord</span>
+                <span>@alexandrapletezhova</span>
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="skills">
+            <h2>Skills</h2>
+
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>Axios</li>
+              <li>CSS / SCSS</li>
+              <li>Vite</li>
+              <li>JavaScript</li>
+              <li>Webpack</li>
+              <li>TypeScript</li>
+              <li>Storybook</li>
+              <li>React</li>
+              <li>Vitest</li>
+              <li>Next.js</li>
+              <li>Cypress</li>
+              <li>React Router</li>
+              <li>Git</li>
+              <li>Redux Toolkit</li>
+              <li>Figma</li>
+            </ul>
+          </section>
+
+          <section class="section" id="education">
+            <h2>Education</h2>
+
+            <p class="date">
+              2018 — 2022
+            </p>
+
+            <h3>International Management</h3>
+
+            <p class="education-place">
+              Belarusian State University
+              <br>
+              Faculty of Economics
+            </p>
+          </section>
+
+          <section class="section">
+            <h2>Training</h2>
+
+            <div class="training-item">
+              <h3>Frontend Development</h3>
+
+              <p>
+                <strong>Yandex Practicum</strong>
+                <span>2025 — 2026</span>
+              </p>
+            </div>
+
+            <div class="training-item">
+              <h3>Visual Communication &amp; Design</h3>
+
+              <p>
+                <strong>Adobe, Figma, Motion</strong>
+                <span>2020 — 2024</span>
+              </p>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Languages</h2>
+
+            <ul>
+              <li>Russian — Native</li>
+              <li>English — Professional working proficiency</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="right-part">
+          <section class="section" id="experience">
+            <h2>Work experience</h2>
+
+            <article class="experience-item">
+              <h3>Mentoriya</h3>
+
+              <div class="role-row">
+                <strong>Frontend Developer Intern</strong>
+                <span>Jun 2026 — present</span>
+              </div>
+
+              <p>
+                Developing a web platform that helps tutors manage their
+                profiles, schedules, and day-to-day work with students.
+              </p>
+
+              <ul>
+                <li>
+                  Build reusable UI components and product pages with Next.js,
+                  React, TypeScript, and SCSS Modules.
+                </li>
+
+                <li>
+                  Implement email- and phone-based authentication, registration
+                  flows with client-side validation and server error handling.
+                </li>
+
+                <li>
+                  Integrate REST APIs with Axios, including token management and
+                  asynchronous data handling.
+                </li>
+
+                <li>
+                  Contribute to component architecture, maintain reusable
+                  components in Storybook, and participate in code reviews and
+                  task decomposition.
+                </li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="section">
+            <h2>Selected Projects</h2>
+
+            <div class="experience-item">
+              <div class="role-row">
+                <strong>Frontend Developer</strong>
+                <span>2025 — present</span>
+              </div>
+
+              <ul>
+                <li>
+                  Built responsive React and TypeScript applications with
+                  reusable UI components and Redux Toolkit.
+                </li>
+
+                <li>
+                  Integrated REST APIs and asynchronous data handling.
+                </li>
+
+                <li>
+                  Wrote unit tests and worked with component-based architecture.
+                </li>
+
+                <li>
+                  Participated in code reviews and Git-based development
+                  workflows.
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Algorithms &amp; Problem Solving</h2>
+
+            <p>
+              Codewars — <strong>4 kyu</strong> ·
+              Yandex Algorithm Training —
+              <strong>top 350 participant</strong>
+            </p>
+
+            <a
+              href="https://github.com/al-lumiere/algo-practice"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub repository
+            </a>
+          </section>
+
+          <section class="section" id="code">
+            <h2>Code Example</h2>
+
+            <h3>Number of Integer Partitions — Codewars, 4 kyu</h3>
+
+            <p>
+              A dynamic programming solution that calculates the number of ways
+              an integer can be represented as a sum of positive integers.
+            </p>
+
+            <pre><code>function partitions(n) {
+  const arr = new Array(n + 1).fill(0);
+
+  arr[0] = 1;
+
+  for (let i = 1; i &lt;= n; i++) {
+    for (let sum = i; sum &lt;= n; sum++) {
+      arr[sum] += arr[sum - i];
+    }
+  }
+
+  return arr[n];
+}</code></pre>
+
+            <p class="complexity">
+              <strong>Time complexity:</strong> O(n²) ·
+              <strong>Space complexity:</strong> O(n)
+            </p>
+          </section>
+
+          <section class="section">
+            <h2>Previous Experience</h2>
+
+            <article class="experience-item">
+              <h3>Event agency "EventMakers"</h3>
+
+              <div class="role-row">
+                <strong>Designer</strong>
+                <span>2023 — 2025</span>
+              </div>
+
+              <p>
+                Developed and adapted key visuals for corporate events.
+                Contributed to launching the EventMakers educational project,
+                responsible for visual communication, social media management,
+                and presentation materials.
+              </p>
+            </article>
+
+            <article class="experience-item">
+              <h3>IT company "Gurtam"</h3>
+
+              <div class="role-row">
+                <strong>Brand Designer</strong>
+                <span>2022 — 2024</span>
+              </div>
+
+              <p>
+                Worked on the company's HR brand and internal communications.
+                Developed visual materials for corporate events, office
+                branding, merchandise, and social media. Contributed to
+                maintaining visual consistency across internal and external
+                channels.
+              </p>
+            </article>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <a
+          href="https://github.com/al-lumiere"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <span>2026</span>
+
+        <a
+          href="https://rs.school/courses/javascript"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="rss-logo"
+            src="./assets/rs-school-logo.svg"
+            alt="RS School"
+          >
+        </a>
+      </footer>
+    </div>
   </body>
 </html>
