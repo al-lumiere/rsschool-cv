@@ -1,3 +1,8 @@
+---
+layout: default
+title: Aliaksandra Pletsiazhova
+---
+
 # Aliaksandra Pletsiazhova
 
 ## Frontend Developer
